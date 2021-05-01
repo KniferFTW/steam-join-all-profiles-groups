@@ -37,13 +37,13 @@ function JoinProfilesGroups()
 				type: 'POST',
 				dataType: 'json'
 			}).done(function(data) {
-					console.log('Joined Group.');
+					console.log('[Auto-Group-Joiner] Joined Group.');
 			}).fail(function() {
-				console.log('Error processing your request. Please try again.');
+				console.log('[Auto-Group-Joiner] Error processing your request. Please try again.');
 			});
 		});
 	}).fail(function() {
-		console.log('The request failed or the group custom URL is wrong.');
+		console.log('[Auto-Group-Joiner] The request failed or the group custom URL is wrong.');
 	});
 }
 
