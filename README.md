@@ -1,14 +1,26 @@
-# steam-join-all-profiles-groups
-This is a script that when you load it, it will join every group on someone's profile. Good for mass joining, that's about it.
+## steam-join-all-profiles-groups
+This is a script for mass joining Steam groups, by loading a users profile and automatically joining all of the groups they're in.
 
-# How to use
-1. If on Chrome install Tampermonkey here https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
-- If on Firefox install Greasemonkey here https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
-- If on Opera install Violentmonkey here https://violentmonkey.github.io/get-it/
-2. Click on my modified script in this repository and press "Raw". If you are on chrome, it should give you the option to save in tampermonkey.
-3. When you have the script installed, just load up someone's steam profile, and wait. You will slowly start joining all of their groups.
+## How to use
+Install one of these extensions for your browser:
+<br />
+Chrome: [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
+<br />
+Firefox: [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+<br />
+Opera: [Violentmonkey](https://violentmonkey.github.io/get-it/)
 
+Go [here](https://github.com/KniferFTW/steam-join-all-profiles-groups/blob/master/steam-join-all-profiles-groups.user.js) and click "Raw".
+<br />
+If you are on chrome, it should give you the option to install into tampermonkey.
 
-// Original file here: https://greasyfork.org/en/scripts/13424-join-all-groups-on-a-profile
+When you have the script installed, just load up someone's steam profile, and wait.
+<br />
+You will slowly start joining all of their groups.
+<br />
+(You may need to refresh the page for it to join more.)
 
-// Original Steam Guide here: https://steamcommunity.com/sharedfiles/filedetails/?id=849954952
+## 
+[Original file](https://greasyfork.org/en/scripts/13424-join-all-groups-on-a-profile)
+<br />
+[Steam Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=849954952)
